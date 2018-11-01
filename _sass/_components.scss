@@ -56,20 +56,25 @@ code {
     padding-left: 20px;
     margin: 40px 0 40px -16px;
     border-left: $spacer-1 solid $color-border;
-    font-style: italic;
+    font-weight: light;
+    //font-style: italic;
 
+    /*
     p {
       font-size: 24px;
     }
+    */
 
     @media (min-width: $breakpoint-lg) {
       padding-left: $spacer-3;
       margin: $spacer-4 0 $spacer-4 -40px;
       max-width: (11 / 10 * 100%);
 
+      /*
       p {
         font-size: 32px;
       }
+      */
 
     }
 
